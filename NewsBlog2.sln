@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsBlog2.Web", "NewsBlog2\NewsBlog2.Web.csproj", "{A73A128E-A519-4247-87C2-5018C4A57AB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsBlog2.Domain", "NewsBlog2.Domain\NewsBlog2.Domain.csproj", "{4E1C50F9-5E65-4FF9-BFEE-3B25B3FBD4D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A73A128E-A519-4247-87C2-5018C4A57AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73A128E-A519-4247-87C2-5018C4A57AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73A128E-A519-4247-87C2-5018C4A57AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73A128E-A519-4247-87C2-5018C4A57AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E1C50F9-5E65-4FF9-BFEE-3B25B3FBD4D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E1C50F9-5E65-4FF9-BFEE-3B25B3FBD4D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E1C50F9-5E65-4FF9-BFEE-3B25B3FBD4D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E1C50F9-5E65-4FF9-BFEE-3B25B3FBD4D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

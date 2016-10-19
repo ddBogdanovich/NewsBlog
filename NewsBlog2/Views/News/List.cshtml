@@ -1,0 +1,18 @@
+﻿
+@model NewsBlog2.Models.NewsListViewModel
+@{
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+    ViewBag.Title = "List";
+}
+
+<h2>List</h2>
+@foreach(var p in Model.News)
+{
+    <p>@p.Headline</p>
+    <p>@p.Body</p>
+    <p>@p.Category</p>
+}
+
+<div class="btn-group pull-right">
+    @Html.PageLinks(Model.PagingInfo, x => Url.Action("List", new { page = x, category = Model.CurrentCategory}))
+</div>
